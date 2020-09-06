@@ -1,7 +1,7 @@
-# Add two numbers
-#def add(a,b):
-#    sum=a+b
-#    return(sum)
+ #Add two numbers
+def add(a,b):
+    sum=a+b
+    return(sum)
 
 
 #x=int(input("Enter your first choice: "))
@@ -60,15 +60,15 @@
 
 # Compound interest
 
-def compound_interest(principal,rate,time):
-    result=principal*(pow((1+rate/100),time))
-    return(result)
+#def compound_interest(principal,rate,time):
+    #result=principal*(pow((1+rate/100),time))
+    #return(result)
 
-p=float(input("Enter the principal amount: "))
-r=float(input("Enter the interest rate: "))
-t=float(input("Enter the time in years: "))
-amount=compound_interest(p,r,t)
-interest=amount-p
-print("Compound amount: %.3f"%amount)
-print("Compound interest: %.3f"%interest)
+#p=float(input("Enter the principal amount: "))
+#r=float(input("Enter the interest rate: "))
+#t=float(input("Enter the time in years: "))
+#amount=compound_interest(p,r,t)
+#interest=amount-p
+#print("Compound amount: %.3f"%amount)
+#print("Compound interest: %.3f"%interest)
       
