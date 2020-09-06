@@ -4,9 +4,9 @@ def add(a,b):
     return(sum)
 
 
-#x=int(input("Enter your first choice: "))
-#y=int(input("Enter your second choice: "))
-#print("The sum of two numbers is: ",add(x,y))
+x=int(input("Enter your first choice: "))
+y=int(input("Enter your second choice: "))
+print("The sum of two numbers is: ",add(x,y))
 
 #Print all prime numbers in an interval
 #def prime(num):
